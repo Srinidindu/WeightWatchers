@@ -1,3 +1,5 @@
+package com.test.WeightWatchers;
+
 import java.util.Arrays;
 import java. util. Scanner; 
 

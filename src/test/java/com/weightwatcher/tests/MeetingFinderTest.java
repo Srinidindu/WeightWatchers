@@ -16,7 +16,7 @@ public class MeetingFinderTest{
 	
 	private  WebDriver getDriver(String appURL) {
 		System.out.println("Launching Chrome browser..");
-		System.setProperty("webdriver.chrome.driver","/Users/veera.suravaram/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/Users/srinivas/Downloads/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to(appURL);
