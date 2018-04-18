@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weight Watcher Tests">
+<parameter name="app" value="https://www.weightwatchers.com/us/"/>
+<parameter name="browser" value="firefox"/>
+  <test name="Weight Watcher Tests">
+    <classes>
+      <class name="com.weightwatcher.tests.MeetingFinderTest"/>
+    </classes>
+  </test>
+</suite>
